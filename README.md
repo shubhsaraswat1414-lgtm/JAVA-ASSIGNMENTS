@@ -32,43 +32,94 @@ A curated repository of Java Programming assignments and projects.
 
 ## 🚀 Assignments Overview
 
-| # | Assignment | Topic / Concepts | Code File |
-|---|------------|------------------|-----------|
-| 1 | **Java Fundamentals — Student Profile and Basic Calculator** | Data Types, Arithmetic Operators, Decimal Precision, Type Casting | [`StudentProfile/StudentProfileCalculator.java`](StudentProfile/StudentProfileCalculator.java) |
-| 2 | **Student Activity Management System** | Control Flow, Conditionals (if-else, switch), Loops, Menu-Driven CLI | [`StudentActivity/StudentActivityManagementSystem.java`](StudentActivity/StudentActivityManagementSystem.java) |
-| 3 | **Food Delivery Rating Analyzer** | Method Overloading, 1D & 2D Arrays, Aggregation & Averages | [`FoodDeliveryRating/foodDelivery_RatingAnalyzer.java`](FoodDeliveryRating/foodDelivery_RatingAnalyzer.java) |
-| 4 | **Student Marks Management System** | 2D Arrays, Totals & Averages, Linear Search, Bubble Sort Descending | [`StudentMarks/StudentMarksManagementSystem.java`](StudentMarks/StudentMarksManagementSystem.java) |
-| 5 | **Hotel Room Booking System** | Encapsulation, Getters/Setters, Static Counter, Constructors (`this`) | [`HotelBooking/HotelRoomBookingSystem.java`](HotelBooking/HotelRoomBookingSystem.java) |
-| 6 | **Vehicle Rental Management System** | Inheritance Hierarchy, Polymorphism, Method Overriding | [`VehicleRental/VehicleRentalSystem.java`](VehicleRental/VehicleRentalSystem.java) |
+### 1. Java Fundamentals — Student Profile & Basic Calculator (`StudentProfile`)
+- **Concepts**: Primitive Data Types (`String`, `int`, `double`), Arithmetic Operators (`+`, `-`, `*`, `/`), Explicit Type Casting for decimal precision.
+- **Features**:
+  - Displays formatted student profile (Name, Roll No, Course, Year).
+  - Performs 4 basic arithmetic operations on two numbers.
+  - Preserves decimal precision in division.
+- **Source**: [`StudentProfile/StudentProfileCalculator.java`](StudentProfile/StudentProfileCalculator.java)
+
+---
+
+### 2. Student Activity Management System (`StudentActivity`)
+- **Concepts**: Control Flow (`if-else`, `switch-case`), Loops (`while`), Safe Input Parsing (`java.util.Scanner`).
+- **Features**:
+  - Interactive menu-driven console application.
+  - Attendance eligibility checker with strict range validation (0–100%).
+  - Performance category classifier (Distinction, First Class, Second Class, Pass, Fail).
+- **Source**: [`StudentActivity/StudentActivityManagementSystem.java`](StudentActivity/StudentActivityManagementSystem.java)
+
+---
+
+### 3. Food Delivery Rating Analyzer (`FoodDeliveryRating`)
+- **Concepts**: Method Overloading, 1D & 2D Array Matrix Processing, Aggregation & Averages.
+- **Features**:
+  - Overloaded `calcTotal` and `calcAvg` methods for both 1D and 2D rating datasets.
+  - Multi-criteria rating analysis across delivery partners and performance metrics.
+  - Precision statistical computations with formatted tabular presentation.
+- **Source**: [`FoodDeliveryRating/foodDelivery_RatingAnalyzer.java`](FoodDeliveryRating/foodDelivery_RatingAnalyzer.java)
+
+---
+
+### 4. Student Marks Management System (`StudentMarks`)
+- **Concepts**: 2D Arrays (Matrices), Linear Search, Bubble Sort Algorithm, Formatted Tables (`printf`).
+- **Features**:
+  - Multi-subject academic records representation (5 students × 3 subjects).
+  - Computes total marks, averages, and subject-wise highest scores.
+  - Linear search to locate specific scores with student and subject identification.
+  - Descending Bubble Sort on student totals while synchronizing student names.
+- **Source**: [`StudentMarks/StudentMarksManagementSystem.java`](StudentMarks/StudentMarksManagementSystem.java)
+
+---
+
+### 5. Hotel Room Booking System (`HotelBooking`)
+- **Concepts**: OOP Encapsulation (`private` fields, `public` getters/setters), Constructors & `this` keyword, Static Members.
+- **Features**:
+  - Encapsulated `Room` class representing hotel room entities.
+  - Room booking validation preventing double-booking of occupied rooms.
+  - Dynamic billing calculation with tax inclusion.
+  - Static booking counter tracking total confirmed reservations across the hotel.
+- **Source**: [`HotelBooking/HotelRoomBookingSystem.java`](HotelBooking/HotelRoomBookingSystem.java)
+
+---
+
+### 6. Vehicle Rental Management System (`VehicleRental`)
+- **Concepts**: OOP Inheritance (`extends`), Constructor Chaining (`super`), Method Overriding (`@Override`), Polymorphism.
+- **Features**:
+  - Generalized parent class `Vehicle` extended by `Car`, `Bike`, `Scooter`, and `ElectricCar`.
+  - Subclass-specific attributes (number of seats, engine capacity, storage, battery capacity).
+  - Polymorphic rental calculations, input validation, and formatted receipt generation.
+- **Source**: [`VehicleRental/VehicleRentalSystem.java`](VehicleRental/VehicleRentalSystem.java)
 
 ---
 
 ## 🛠️ How to Compile & Run
 
-### Method 1: Using the VS Code Run / Play Button
-Open any `.java` file in VS Code and click the **Run (Play)** button in the top-right corner.
+### Option 1: VS Code (One-Click)
+Open any assignment's `.java` file in VS Code and click the **Run (Play)** button in the top-right corner.
 
-### Method 2: From the Terminal (Root Directory)
+### Option 2: Terminal (From Repository Root)
 
 ```bash
-# Compile all assignments at once
+# Compile all assignments
 javac -d . */*.java
 
-# Assignment 1: Java Fundamentals — Student Profile & Basic Calculator
+# Run Assignment 1: Student Profile & Calculator
 java StudentProfile.StudentProfileCalculator
 
-# Assignment 2: Student Activity Management System
+# Run Assignment 2: Student Activity Management System
 java StudentActivity.StudentActivityManagementSystem
 
-# Assignment 3: Food Delivery Rating Analyzer
+# Run Assignment 3: Food Delivery Rating Analyzer
 java FoodDeliveryRating.foodDelivery_RatingAnalyzer
 
-# Assignment 4: Student Marks Management System
+# Run Assignment 4: Student Marks Management System
 java StudentMarks.StudentMarksManagementSystem
 
-# Assignment 5: Hotel Room Booking System
+# Run Assignment 5: Hotel Room Booking System
 java HotelBooking.HotelRoomBookingSystem
 
-# Assignment 6: Vehicle Rental Management System
+# Run Assignment 6: Vehicle Rental Management System
 java VehicleRental.VehicleRentalSystem
 ```
