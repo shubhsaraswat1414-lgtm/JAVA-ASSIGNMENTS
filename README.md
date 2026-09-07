@@ -14,18 +14,18 @@ A curated repository of Java Programming assignments and projects.
 
 ```
 .
-├── StudentProfile/
-│   └── StudentProfileCalculator.java          # Assignment 1: Java Fundamentals — Student Profile & Basic Calculator
-├── StudentActivity/
-│   └── StudentActivityManagementSystem.java   # Assignment 2: Student Activity Management System
-├── FoodDeliveryRating/
-│   └── foodDelivery_RatingAnalyzer.java       # Assignment 3: Food Delivery Rating Analyzer
-├── StudentMarks/
-│   └── StudentMarksManagementSystem.java      # Assignment 4: Student Marks Management System
-├── HotelBooking/
-│   └── HotelRoomBookingSystem.java            # Assignment 5: Hotel Room Booking System
-└── VehicleRental/
-    └── VehicleRentalSystem.java               # Assignment 6: Vehicle Rental Management System
+├── StudentProfile/          # Assignment 1: Student Profile & Calculator
+│   └── StudentProfileCalculator.java
+├── StudentActivity/         # Assignment 2: Student Activity Management
+│   └── StudentActivityManagementSystem.java
+├── FoodDeliveryRating/      # Assignment 3: Food Delivery Rating Analyzer
+│   └── foodDelivery_RatingAnalyzer.java
+├── StudentMarks/            # Assignment 4: Student Marks Management
+│   └── StudentMarksManagementSystem.java
+├── HotelBooking/            # Assignment 5: Hotel Room Booking System
+│   └── HotelRoomBookingSystem.java
+└── VehicleRental/           # Assignment 6: Vehicle Rental Management
+    └── VehicleRentalSystem.java
 ```
 
 ---
