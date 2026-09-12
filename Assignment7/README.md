@@ -69,6 +69,7 @@ Invalid coupon or minimum order not met.
 Coupon validation completed.
 Continue? (yes/no): no
 ```
+<img width="634" height="194" alt="Screenshot 2026-09-12 at 1 19 37 PM" src="https://github.com/user-attachments/assets/a16a85cc-fb57-4372-ab73-f884bcff4618" />
 
 ---
 
