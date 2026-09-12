@@ -24,8 +24,10 @@ A curated repository of Java Programming assignments and projects.
 │   └── StudentMarksManagementSystem.java
 ├── HotelBooking/            # Assignment 5: Hotel Room Booking System
 │   └── HotelRoomBookingSystem.java
-└── VehicleRental/           # Assignment 6: Vehicle Rental Management
-    └── VehicleRentalSystem.java
+├── VehicleRental/           # Assignment 6: Vehicle Rental Management
+│   └── VehicleRentalSystem.java
+└── Assignment7/             # Assignment 7: E-commerce Coupon Validator
+    └── Ecommerce_coupon_validator.java
 ```
 
 ---
@@ -94,6 +96,17 @@ A curated repository of Java Programming assignments and projects.
 
 ---
 
+### 7. E-commerce Coupon Validator (`Assignment7`)
+- **Concepts**: Custom Exception Handling (`extends Exception`), Throwing Exceptions (`throw`), Exception Propagation (`throws`), Robust Error Handling (`try-catch-finally`).
+- **Features**:
+  - Custom checked exception `InvalidCouponException`.
+  - Tiered coupon code evaluation (`SAVE10`, `SAVE20`, `SAVE30`) tied to minimum purchase thresholds.
+  - Unconditional `finally` execution reporting validation status.
+  - Interactive console-driven loop for multiple validation transactions.
+- **Source**: [`Assignment7/Ecommerce_coupon_validator.java`](Assignment7/Ecommerce_coupon_validator.java)
+
+---
+
 ## 🛠️ How to Compile & Run
 
 ### Option 1: VS Code (One-Click)
@@ -122,4 +135,7 @@ java HotelBooking.HotelRoomBookingSystem
 
 # Run Assignment 6: Vehicle Rental Management System
 java VehicleRental.VehicleRentalSystem
+
+# Run Assignment 7: E-commerce Coupon Validator
+java Assignment7.Ecommerce_coupon_validator
 ```
