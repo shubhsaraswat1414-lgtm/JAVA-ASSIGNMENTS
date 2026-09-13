@@ -26,8 +26,11 @@ A curated repository of Java Programming assignments and projects.
 │   └── HotelRoomBookingSystem.java
 ├── VehicleRental/           # Assignment 6: Vehicle Rental Management
 │   └── VehicleRentalSystem.java
-└── Assignment7/             # Assignment 7: E-commerce Coupon Validator
-    └── Ecommerce_coupon_validator.java
+├── Assignment7/             # Assignment 7: E-commerce Coupon Validator
+│   └── Ecommerce_coupon_validator.java
+└── Assignment8/             # Assignment 8: Smart Cab Booking System
+    ├── cab/booking/CabBooking.java
+    └── Main.java
 ```
 
 ---
@@ -107,6 +110,20 @@ A curated repository of Java Programming assignments and projects.
 
 ---
 
+### 8. Smart Cab Booking System (`Assignment8`)
+- **Concepts**: User-Defined Packages (`package cab.booking`), Enums (`enum CabType`), Wrapper Classes (`Integer`, `Double`), Autoboxing & Unboxing, Final Variables, String Manipulation (`StringBuilder`), Member Inner Classes, Anonymous Classes.
+- **Features**:
+  - Encapsulated booking model within `cab.booking` package imported into driver class.
+  - Enum-driven cab selection (`MINI`, `SEDAN`, `SUV`).
+  - Autoboxing and unboxing demonstrations with passenger ID and fare computations.
+  - Immutable booking fee using `final Double`.
+  - Memory-efficient booking summary generation via `StringBuilder`.
+  - Member Inner Class `PickupLocation` for passenger pickup location management.
+  - Anonymous class implementing confirmation interface for booking completion.
+- **Source**: [`Assignment8/cab/booking/CabBooking.java`](Assignment8/cab/booking/CabBooking.java) & [`Assignment8/Main.java`](Assignment8/Main.java)
+
+---
+
 ## 🛠️ How to Compile & Run
 
 ### Option 1: VS Code (One-Click)
@@ -116,7 +133,7 @@ Open any assignment's `.java` file in VS Code and click the **Run (Play)** butto
 
 ```bash
 # Compile all assignments
-javac -d . */*.java
+javac -d . */*.java Assignment8/cab/booking/*.java Assignment8/Main.java
 
 # Run Assignment 1: Student Profile & Calculator
 java StudentProfile.StudentProfileCalculator
@@ -138,4 +155,7 @@ java VehicleRental.VehicleRentalSystem
 
 # Run Assignment 7: E-commerce Coupon Validator
 java Assignment7.Ecommerce_coupon_validator
+
+# Run Assignment 8: Smart Cab Booking System
+java Assignment8.Main
 ```
