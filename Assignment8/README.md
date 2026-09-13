@@ -1,13 +1,13 @@
 # Assignment 8: Smart Cab Booking System
 
-## 📌 Overview
+##  Overview
 The Smart Cab Booking System is a Java console application developed for **Unit 4: Packages & Advanced OOP Concepts**. It demonstrates packaging, wrapper classes, autoboxing and unboxing, enums, final variables, string manipulation with `StringBuilder`, member inner classes, and anonymous classes.
 
 The program accepts the passenger name, cab type, base fare, and pickup location, computes the final fare by adding a fixed booking fee, builds a formatted booking summary, and confirms the booking via an anonymous class.
 
 ---
 
-## 🎯 Concepts Covered
+##  Concepts Covered
 
 1. **User-Defined Package & Imports (`package cab.booking`)**:
    - Organizes core domain logic inside the package `cab.booking`.
@@ -36,7 +36,7 @@ The program accepts the passenger name, cab type, base fare, and pickup location
 
 ---
 
-## 💻 Code Structure
+##  Code Structure
 
 ```
 Assignment8/
@@ -50,7 +50,7 @@ Assignment8/
 
 ---
 
-## 🖥️ Sample Console Interaction
+##  Sample Console Interaction
 
 ```text
 Enter Passenger Name: Apeksha
@@ -70,7 +70,7 @@ Booking confirmed successfully.
 
 ---
 
-## 🚀 How to Compile & Run
+##  How to Compile & Run
 
 ### From the `Assignment8` Directory:
 
