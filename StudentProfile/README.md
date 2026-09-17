@@ -40,7 +40,6 @@ Subtraction     : 15
 Multiplication  : 250
 Division        : 2.5
 ```
-<img width="465" height="262" alt="image" src="https://github.com/user-attachments/assets/7c695583-22f5-4c2c-b353-e9b2043acd1c" />
 
 
 ---
