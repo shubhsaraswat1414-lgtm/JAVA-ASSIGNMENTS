@@ -5,8 +5,8 @@ public class StudentProfileCalculator {
         // ==========================================
         // 1. Student Profile Data Declaration
         // ==========================================
-        String name = "Ankitraj Jha";
-        int rollNo = 50;
+        String name = "Shubh Saraswat";
+        int rollNo = 27;
         String course = "B.Tech Computer Engineering";
         String year = "Second Year";
 
